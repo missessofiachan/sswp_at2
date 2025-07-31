@@ -81,3 +81,4 @@ Utilities
 nanoid or uuid – Tiny unique ID generators
 
 lodash-es (pick functions you really need)
+react icons  bootstrap

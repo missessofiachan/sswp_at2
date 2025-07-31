@@ -1,16 +1,18 @@
-import { useState } from 'react';
-import { appClass } from './styles/App.css.ts';
-import clsx from 'clsx';
 
+import Header from './components/Header.tsx';
+import { appClass } from './styles/App.css.ts';
 
 
 function App() {
  
 
   return (
-    <div className={appClass}>
-
-    </div>
+    <>
+      <Header />
+      <div className={appClass}>
+        {/* Main content here */}
+      </div>
+    </>
   );
 }
 
