@@ -1,16 +1,14 @@
 import { useState } from 'react';
+import { appClass } from './styles/App.css.ts';
+import clsx from 'clsx';
 
 
-
-import { appClass } from './App.css.ts';
 
 function App() {
  
 
   return (
     <div className={appClass}>
- 
-     
 
     </div>
   );
